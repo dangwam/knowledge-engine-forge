@@ -1,0 +1,45 @@
+screen,ticker,companyName,industry,price,marketCap,percentOfSharesOutHeldByInstitutions,analystFirm,ratingDate,averageRating,averagePriceTarget,ratingPrior,ratingCurrent,fiftyTwoWeekRange,dayVolume
+analyst_strong_buy_stocks,RWT,"Redwood Trust, Inc.",,6.94,823333846.7884064,,Raymond James,01/19/2024,Buy,8.35,Strong Buy,Strong Buy,5.47 - 8.72,1130777
+analyst_strong_buy_stocks,ESQ,"Esquire Financial Holdings, Inc.",,48.6,398723621.48139954,,Raymond James,01/16/2024,Buy,58.67,,Strong Buy,34.75 - 54.03,10931
+analyst_strong_buy_stocks,WFC,Wells Fargo & Company,,48.12,173177139356.0028,,Raymond James,01/16/2024,Buy,55.61,Strong Buy,Strong Buy,35.25 - 50.77,25606893
+analyst_strong_buy_stocks,APLS,"Apellis Pharmaceuticals, Inc.",,63.8,7560299909.591675,,Raymond James,01/11/2024,Buy,76.4,Strong Buy,Strong Buy,19.83 - 94.75,1818477
+latest_analyst_upgraded_stocks,ITRI,"Itron, Inc.",,75.89,3452448564.2333984,,Oppenheimer,01/19/2024,Buy,79.44,Perform,Outperform,50.35 - 79.99,510811
+latest_analyst_upgraded_stocks,PCAR,PACCAR Inc,,96.26,50351296877.41089,,B of A Securities,01/19/2024,Hold,97.71,Underperform,Neutral,66.04 - 98.47,3234582
+latest_analyst_upgraded_stocks,DKNG,DraftKings Inc.,,37.62,17540023541.999817,,Stifel,01/19/2024,Buy,40.52,Hold,Buy,13.87 - 39.35,14747393
+latest_analyst_upgraded_stocks,IBM,International Business Machines Corporation,,171.48,156581642218.73474,,Evercore ISI Group,01/19/2024,Hold,153.44,In-Line,Outperform,120.55 - 171.58,6929079
+most_institutionally_bought_large_cap_stocks,NATKY,JSC National Atomic Company Kazatomprom,Uranium,44.7,11593258097.873688,0.5575716813816441,,,,,,,26.75 - 45.50,102
+most_institutionally_bought_large_cap_stocks,APO-PA,"Apollo Global Management, Inc.",Asset Management,58.12,29890301770.68329,127.043996,,,,,,,47.80 - 58.13,65091
+most_institutionally_bought_large_cap_stocks,KVUE,Kenvue Inc.,Household & Personal Products,20.71,39659648246.76514,87.9269862982442,,,Buy,,,,17.82 - 27.80,15841766
+most_institutionally_bought_large_cap_stocks,VLTO,Veralto Corporation,Pollution & Treatment Controls,77.55,19101186151.672363,41.38096789907283,,,Buy,,,,65.51 - 83.89,1280970
+most_institutionally_held_large_cap_stocks,NEE-PR,"NextEra Energy, Inc.",Utilities—Regulated Electric,36.4,54632034290.16113,159.42837,,,,,,,32.00 - 51.68,91349
+most_institutionally_held_large_cap_stocks,BAC-PL,Bank of America Corporation,Banks—Diversified,1165.0,287664130000.0,128.99627359681995,,,,,,,1036.88 - 1262.40,4796
+most_institutionally_held_large_cap_stocks,APO-PA,"Apollo Global Management, Inc.",Asset Management,58.12,29890301770.68329,127.043996,,,,,,,47.80 - 58.13,65091
+most_institutionally_held_large_cap_stocks,MBLY,Mobileye Global Inc.,Auto Parts,28.34,22846234443.008423,120.38602440365483,,,Buy,,,,27.29 - 48.11,3938903
+most_institutionally_sold_large_cap_stocks,PROSF,Prosus N.V.,Internet Content & Information,28.019,154472944886.68442,65.69113583388204,,,,,,,26.75 - 85.00,1841
+most_institutionally_sold_large_cap_stocks,MBLY,Mobileye Global Inc.,Auto Parts,28.34,22846234443.008423,120.38602440365483,,,Buy,,,,27.29 - 48.11,3938903
+most_institutionally_sold_large_cap_stocks,BURL,"Burlington Stores, Inc.",Apparel Retail,194.8,12569528636.915588,103.4774674762266,,,Buy,,,,115.66 - 239.94,946991
+most_institutionally_sold_large_cap_stocks,BAC-PL,Bank of America Corporation,Banks—Diversified,1165.0,287664130000.0,128.99627359681995,,,,,,,1036.88 - 1262.40,4796
+stocks_most_bought_by_hedge_funds,FTRE,Fortrea Holdings Inc.,Biotechnology,30.67,2723496006.7749023,108.57264301801801,,,Buy,,,,24.92 - 37.30,929656
+stocks_most_bought_by_hedge_funds,ODD,Oddity Tech Ltd.,Software—Infrastructure,43.0,2442722500.0,80.69869756501285,,,Buy,,,,24.12 - 56.00,401052
+stocks_most_bought_by_hedge_funds,ESAC,ESGEN Acquisition Corporation,Shell Companies,11.32,94052896.66442871,31.753298977521872,,,,,,,10.34 - 12.34,1709
+stocks_most_bought_by_hedge_funds,APO-PA,"Apollo Global Management, Inc.",Asset Management,58.12,29890301770.68329,127.043996,,,,,,,47.80 - 58.13,65091
+stocks_most_bought_by_pension_fund,BIRK,Birkenstock Holding plc,Footwear & Accessories,46.32,8700100262.680054,83.2568423370123,,,Buy,,,,35.83 - 52.12,1369100
+stocks_most_bought_by_pension_fund,AZREF,Azure Power Global Limited,Utilities—Renewable,1.16,74427337.85837889,76.09260944532305,,,Underperform,,,,0.00 - 4.47,4922
+stocks_most_bought_by_pension_fund,FTRE,Fortrea Holdings Inc.,Biotechnology,30.67,2723496006.7749023,108.57264301801801,,,Buy,,,,24.92 - 37.30,929656
+stocks_most_bought_by_pension_fund,ODD,Oddity Tech Ltd.,Software—Infrastructure,43.0,2442722500.0,80.69869756501285,,,Buy,,,,24.12 - 56.00,401052
+stocks_most_bought_by_private_equity,BIRK,Birkenstock Holding plc,Footwear & Accessories,46.32,8700100262.680054,83.2568423370123,,,Buy,,,,35.83 - 52.12,1369100
+stocks_most_bought_by_private_equity,ODD,Oddity Tech Ltd.,Software—Infrastructure,43.0,2442722500.0,80.69869756501285,,,Buy,,,,24.12 - 56.00,401052
+stocks_most_bought_by_private_equity,KVUE,Kenvue Inc.,Household & Personal Products,20.71,39659648246.76514,87.9269862982442,,,Buy,,,,17.82 - 27.80,15841766
+stocks_most_bought_by_private_equity,SPWR,SunPower Corporation,Solar,3.03,531343824.98288155,104.41277599737519,,,Hold,,,,2.74 - 18.59,10721205
+stocks_most_bought_by_sovereign_wealth_fund,NATKY,JSC National Atomic Company Kazatomprom,Uranium,44.7,11593258097.873688,0.5575716813816441,,,,,,,26.75 - 45.50,102
+stocks_most_bought_by_sovereign_wealth_fund,FTRE,Fortrea Holdings Inc.,Biotechnology,30.67,2723496006.7749023,108.57264301801801,,,Buy,,,,24.92 - 37.30,929656
+stocks_most_bought_by_sovereign_wealth_fund,APO-PA,"Apollo Global Management, Inc.",Asset Management,58.12,29890301770.68329,127.043996,,,,,,,47.80 - 58.13,65091
+stocks_most_bought_by_sovereign_wealth_fund,PHIN,PHINIA Inc.,Auto Parts,28.8,1344536604.3819427,94.21322554155518,,,Buy,,,,23.46 - 36.99,240805
+stocks_with_most_institutional_buyers,AMZN,"Amazon.com, Inc.",Internet Retail,155.34,1605283522155.7617,61.779054705422176,,,Buy,,,,88.12 - 157.17,51651628
+stocks_with_most_institutional_buyers,KVUE,Kenvue Inc.,Household & Personal Products,20.71,39659648246.76514,87.9269862982442,,,Buy,,,,17.82 - 27.80,15841766
+stocks_with_most_institutional_buyers,MSFT,Microsoft Corporation,Software—Infrastructure,398.67,2963019193998.413,73.01660398644952,,,Buy,,,,230.90 - 398.67,29331136
+stocks_with_most_institutional_buyers,NVDA,NVIDIA Corporation,Semiconductors,594.91,1469427633666.9922,68.37699421052632,,,Buy,,,,178.18 - 595.00,54350148
+stocks_with_most_institutional_sellers,JNJ,Johnson & Johnson,Drug Manufacturers—General,161.68,389209012768.5547,71.01767642500809,,,Buy,,,,144.95 - 175.97,7071320
+stocks_with_most_institutional_sellers,AAPL,Apple Inc.,Consumer Electronics,191.56,2961881526251.2207,61.8290847965864,,,Buy,,,,137.90 - 199.62,68902985
+stocks_with_most_institutional_sellers,MSFT,Microsoft Corporation,Software—Infrastructure,398.67,2963019193998.413,73.01660398644952,,,Buy,,,,230.90 - 398.67,29331136
+stocks_with_most_institutional_sellers,PYPL,"PayPal Holdings, Inc.",Credit Services,65.82,70963174470.97778,71.64127511487783,,,Buy,,,,50.25 - 88.63,38264634

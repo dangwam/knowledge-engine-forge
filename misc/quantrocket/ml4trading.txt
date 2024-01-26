@@ -1,0 +1,4 @@
+Run the code using a Docker images
+----------------------------------
+QUANDL_API_KEY=tSEURcdeo4KPiDJ_vnh1
+docker run -it -v /home/packt/ml4t -p 8888:8888 -e QUANDL_API_KEY=tSEURcdeo4KPiDJ_vnh1 --name ml4t appliedai/packt:latest bash

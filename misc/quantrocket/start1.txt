@@ -1,0 +1,68 @@
+
+> quantrocket history create-usstock-db 'usstock-free-1d' --free
+> quantrocket history config 'usstock-free-1d'
+bar_size: 1 day
+fields:
+- Symbol
+- Open
+- High
+- Low
+- Close
+- Volume
+- Vwap
+- TotalTrades
+- UnadjOpen
+- UnadjHigh
+- UnadjLow
+- UnadjClose
+- UnadjVolume
+- UnadjVwap
+shard: year
+universe: FREE
+vendor: usstock
+
+> 
+from quantrocket.history import get_db_config
+get_db_config("usstock-free-1d")
+
+>
+from quantrocket.history import collect_history
+collect_history("usstock-free-1d")
+
+>
+quantrocket.history import get_history_queue
+get_history_queue()
+#####:: Data Collection ==>>> Collect 1-minute US Stock Data
+
+from quantrocket.zipline import create_usstock_bundle
+create_usstock_bundle("usstock-free-1min", free=True)
+
+#####::  ingest the data:Use flightlog to monitor the progress:
+
+from quantrocket.zipline import ingest_bundle
+ingest_bundle("usstock-free-1min")
+
+#####:: zipline strategy :: First run a pipeline to create a universe using EOD data and then 
+#####:: use intraday data to filter further
+#####:: The first step is to define the pipeline. A pipeline has two main attributes: columns, which is used to calculate one or more factors, and screen, 
+#####:: which is used to filter the pipeline to a subset of securities. Here, we filter the starting universe to include only stocks with 30-day average dollar
+#####:: volume of at least 10 million dollars, and for these securities we calculate a 12-month return:
+
+from zipline.pipeline import Pipeline
+from zipline.pipeline.factors import AverageDollarVolume, Returns
+from quantrocket.zipline import set_default_bundle
+set_default_bundle("usstock-free-1min")
+
+pipeline = Pipeline(
+    columns={
+        "returns": Returns(window_length=252),
+    },
+    screen=AverageDollarVolume(window_length=30) > 10e6
+)
+
+from zipline.research import run_pipeline
+factors = run_pipeline(pipeline, start_date="2018-01-01", end_date="2020-01-01")
+factors.head()
+
+
+
